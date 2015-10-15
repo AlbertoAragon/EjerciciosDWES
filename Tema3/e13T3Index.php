@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-Escribe un programa que ordene tres números enteros introducidos por teclado.
+Ejercicio 13: Escribe un programa que ordene tres números enteros introducidos por teclado.
 -->
 <html>
     <head>
@@ -10,11 +10,14 @@ Escribe un programa que ordene tres números enteros introducidos por teclado.
     <body>
         Dime tres números para que los ordene de menor a mayor:
         <form action="e10T3Horoscopo.php" method="get">
-            Introduce el mes:
-            <input type="number" name="mes"><br>
-            Introduce el día:
-            <input type="number" name="dia"><br>
+            Introduce el primer número:
+            <input type="number" name="primerNumero"><br>
+            Introduce el segundo número:
+            <input type="number" name="segundoNumero"><br>
+            Introduce el tercer número:
+            <input type="number" name="tercerNumero"><br>
             <input type="submit" value="Enviar">
         </form>
+        
     </body>
 </html>
