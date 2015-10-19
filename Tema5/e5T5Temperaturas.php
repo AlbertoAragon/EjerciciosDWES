@@ -27,10 +27,10 @@ del diagrama se pueden dibujar a base de la concatenación de una imagen.
         <form action="#" method="get">
             Introduce la temperatura de cada mes:<br>
             <?php
-                $mes = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+                $indice = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
                         "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
                 for ($i = 0; $i < 12; $i++) {
-                    echo "$mes[$i]: <input type=\"number\" name=\"temperatura[$mes[$i]]\"><br>";
+                    echo "$indice[$i]: <input type=\"number\" name=\"temperatura[$indice[$i]]\"><br>";
                 }
             ?>
             <input type="submit" value="Enviar">
@@ -38,9 +38,9 @@ del diagrama se pueden dibujar a base de la concatenación de una imagen.
         <?php
             } else {                
                 echo "<table>";
-                $temperatura = $_GET["temperatura"];
-                foreach($temperatura as $mes => $temperaturaMes) {
-                echo "<tr><td>$mes $temperaturaMes","ºC</td>";
+                $numero = $_GET["temperatura"];
+                foreach($numero as $indice => $temperaturaMes) {
+                echo "<tr><td>$indice $temperaturaMes","ºC</td>";
                 // Pinta la barra
                 echo "<td>";
                 for ($i = 0; $i < $temperaturaMes; $i++) {

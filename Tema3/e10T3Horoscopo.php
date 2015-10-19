@@ -9,11 +9,11 @@ Escribe un programa que nos diga el horóscopo a partir del día y el mes de nac
     </head>
     <body>
         <?php
-        $mes = $_GET['mes'];
+        $indice = $_GET['mes'];
         $dia = $_GET['dia'];
         //OTRA FORMA: CON SWITCH(MES) Y LUEGO IF (DIA) DENTRO DE CADA SWITCH
         //Aries
-        if ((($mes == 3) and ($dia >= 21)) || (($mes == 4) and ($dia <= 20))) {
+        if ((($indice == 3) and ($dia >= 21)) || (($indice == 4) and ($dia <= 20))) {
             $signo = "aries";
             echo "<br><center>Tu signo es aries<br><img src=",$signo,".GIF style=\"max-width:60px\"></center>";
         }
