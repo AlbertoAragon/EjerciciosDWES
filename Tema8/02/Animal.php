@@ -49,6 +49,27 @@ abstract class Animal {
   }
   
   /**
+   * Hace que el ave se limpie.
+   */  
+  public function aseate() {
+    echo "Me estoy aseando<br>";
+  }
+  
+  /**
+   * Hace que el animal alimente a las crías.
+   */  
+  public function alimenta() {
+    echo "Estoy alimentando a las crías<br>";
+  }
+  
+  /**
+   * Hace que el mamífero beba.
+   */  
+  public function bebe() {
+    echo "Voy a buscar un poco de agua<br>";
+  }
+  
+  /**
   * Hace que el animal coma
   */
   public function come() {

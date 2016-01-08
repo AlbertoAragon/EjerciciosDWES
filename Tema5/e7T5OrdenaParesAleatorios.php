@@ -19,7 +19,6 @@ si es necesario.
                     $numero[$i] = rand(0, 100);
                     echo $numero[$i], " ";
                 }
-                //$auxiliar[$i] = $numero[$i];
 
                 //Pasar pares a las primeras posiciones
                 for ($i = 0; $i < 20; $i++) {
@@ -34,9 +33,18 @@ si es necesario.
                       $auxiliar[] = $numero[$i];
                     }
                 }
-                $auxiliar = implode(" ", $auxiliar);
+                
+                //Reiniciar array $numero
+                $numero = [];       
+                                    
+                //Pasar auxiliar a numero
+                for ($i = 0; $i < 20; $i++) {                   
+                    $numero[] = $auxiliar[$i];                    
+                }
+                
+                $numero = implode(" ", $numero);
                 echo "<br>Número ordenados (pares primero):<br>";
-                echo $auxiliar;
+                echo $numero;
             ?>
     </body>
 </html>

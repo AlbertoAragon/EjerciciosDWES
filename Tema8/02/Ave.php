@@ -28,11 +28,6 @@ abstract class Ave extends Animal {
     echo "Estoy volando<br>";
   }
   
-  /**
-   * Hace que el ave alimente a las crías.
-   */  
-  public function alimenta() {
-    echo "Estoy alimentando a las crías<br>";
-  }
+  
 }
 

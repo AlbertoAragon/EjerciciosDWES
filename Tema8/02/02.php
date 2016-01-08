@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!--
 Crea las clases Animal, Mamifero, Ave, Gato, Perro, Canario, Pinguino y Lagarto. Crea, al menos,
 tres métodos específicos de cada clase y redefine el/los método/s cuando sea necesario. Prueba las
@@ -9,12 +8,12 @@ para representar acciones de objetos; por ejemplo, si el canario canta, el perro
 -->
 <?php
 error_reporting(0);
-  include_once 'Animal.php';
-  include_once 'Ave.php';
+  //include_once 'Animal.php';
+  //include_once 'Ave.php';
   include_once 'Canario.php';
   include_once 'Gato.php';
   include_once 'Lagarto.php';
-  include_once 'Mamifero.php';
+  //include_once 'Mamifero.php';
   include_once 'Perro.php';
   include_once 'Pinguino.php';
   

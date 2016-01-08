@@ -23,13 +23,7 @@ abstract class Mamifero extends Animal {
   public function aseate() {
     echo "Me voy a dar un baño<br>";
   }
-  
-   /**
-   * Hace que el mamífero beba.
-   */  
-  public function bebe() {
-    echo "Voy a buscar un poco de agua<br>";
-  }
+     
 
   /**
    * Amamanta a los cachorros.
