@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Capítulo 7 - Acceso a Bases de Datos</title>
+    <title>Capítulo 8 - php orientado a objetos</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -24,8 +24,7 @@
     <div class="container">
       
       <div class="jumbotron">
-        <h4 class="text-center">EJERCICIO <?=$_REQUEST['ejercicio']?></h4>
-        <h4 class="text-center">7. Acceso a Bases de Datos</h4>
+        <h4 class="text-center">8. php orientado a objetos</h4>
       </div>
     
         <?php
